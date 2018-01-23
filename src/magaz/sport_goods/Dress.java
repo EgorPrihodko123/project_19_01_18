@@ -9,6 +9,16 @@ public class Dress {
     private int price;
     private int count;
 
+    private Info info;
+
+    public Info getInfo() {
+        return info;
+    }
+
+    public void setInfo(Info info) {
+        this.info = info;
+    }
+
     public int getCount() {
         return count;
     }
@@ -30,6 +40,7 @@ public class Dress {
         this.brend = brend;
         this.price = price;
     }
+
 
     public int getSize() {
         return size;
